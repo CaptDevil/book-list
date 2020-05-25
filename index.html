@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Book List App</title>
+</head>
+<body>
+    <div class="jumbotron mb-0 pt-3 pb-3" style="border-radius: 0;">
+        <div class="container">
+            <h1 class="display-2 mb-0 text-center">My<span class="text-primary">Book</span>List</h1>
+        </div>
+    </div>
+
+    <div class="container mt-2" id="main-alert"></div>
+
+    <div class="container mt-4">
+        <hr>
+        <form class="mb-4" id="main-form">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" id="title" placeholder="Add Title">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" id="author" placeholder="Add Author">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" id="isbn" placeholder="Add ISBN">
+                </div>
+                <div class="col">
+                    <input class="btn btn-primary" type="submit" value="Add Book">
+                </div>
+            </div>
+        </form>
+
+        <table class="table table-striped table-bordered table-hover" style="margin-bottom: 200px;">
+            <thead class="thead-light">
+                <tr>
+                    <th class="font-weight-normal text-center">Title</th>
+                    <th class="font-weight-normal text-center">Author</th>
+                    <th class="font-weight-normal text-center">ISBN</th>
+                    <th class="font-weight-normal text-center"></th>
+                </tr>
+            </thead>
+            <tbody class="tbody-light" id="table-content"></tbody>
+        </table>
+        <hr>
+    </div>
+
+    <div class="jumbotron bg-dark mb-0" style="border-radius: 0;">
+        <div class="container">
+            <div class="float-left">
+                <h4 class="text-info mb-3">Contact Me At</h4>
+                <a href="https://www.facebook.com/prabhudutta.sarangi.9" class="btn btn-outline-light btn-lg mr-3"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/the_captain_devil/" class="btn btn-outline-light btn-lg mr-3"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/prabhusarangi89" class="btn btn-outline-light btn-lg mr-3"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+            <div class="float-right">
+                <blockquote class="blockquote text-light text-right font-italic"><div>Ash nazg durbatulûk, ash nazg gimbatul,</div><div>ash nazg thrakatulûk, agh burzum-ishi krimpatul.</div></blockquote>
+                <footer class="blockquote-footer text-right text-light font-italic">Gandalf The Grey</footer>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
