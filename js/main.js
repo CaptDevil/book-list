@@ -10,7 +10,7 @@ class Book{
 //UI class: for the user interface
 class UI{
     static displayBooks(){
-        const books = [];
+        const books = Store.getBooks();
 
         for(let i=0;i<books.length;i++)
             UI.addBookToList(books[i]);
